@@ -8,6 +8,7 @@ public class Application{
 public static void main(String [] args){
 Scanner scanner=new Scanner(System.in);
 Cashier cashier=new Cashier();
+Sales sales=new Sales();
 cashier.password=7794;
 
 System.out.print("LOGIN");
